@@ -1,6 +1,6 @@
 # Conversion and Analysis Pipeline for Project WebCensus
 
-This repository contains all Jupyter notebooks used in the analysis and reporting for Project WebCensus. We used Kaggle's pipeline feature to connect multiple notebooks together by selecting a "previous" notebook's output data as a "current" notebook's input data.
+This repository contains all Jupyter notebooks used in the analysis and reporting for Project WebCensus. We used Kaggle's pipeline feature to connect multiple notebooks together by selecting a "previous" notebook's output data as a "current" notebook's input data. We also combined this with Kaggle's batch processing feature, which allows long-running notebooks to be run in the background without any user interaction.
 
 Note that the datasets are not included in this GitHub repository due to size limitations; only the notebooks.
 
